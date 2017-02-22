@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{67188F6B-27BE-4E93-A7EF-C512656343A1}</ProjectGuid>
+    <RootNamespace>INF2990</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Noyau</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\Exe\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\Exe\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>
+      </Optimization>
+      <AdditionalIncludeDirectories>../../Commun/Externe/assimp/include;../../Commun/Externe/cppunit/include;../../Commun/Externe/FMOD/include;../../Commun/Externe/FreeImage/include;../../Commun/Externe/FreeType/include;../../Commun/Externe/FTGL/include;../../Commun/Externe/GLEW/include;../../Commun/Externe/glm/include;../../Commun/Externe/tinyxml2/include;../../Commun/Utilitaire;../../Commun/Utilitaire/OpenGL;../../Commun/Utilitaire/Modele;../../Commun/Utilitaire/Vue;Application;Arbre;Arbre/Noeuds;Arbre/Usines;Configuration;Interface;Tests;../Reseau/Application/%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;GLEW_BUILD;_DEBUG;_WINDOWS;_USRDLL;INF2990_EXPORTS;FTGL_LIBRARY_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;freetype246_D_x64.lib;glew32s.lib;tinyxml_D_x64.lib;assimp.lib;cppunit_D_x64.lib;ftgl.lib;fmodexL64_vc.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../Exe/$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Commun/Externe/assimp/lib;../../Commun/Externe/cppunit/lib;../../Commun/Externe/FMOD/lib;../../Commun/Externe/FreeImage/lib;../../Commun/Externe/FreeType/lib;../../Commun/Externe/FTGL/lib;../../Commun/Externe/GLEW/lib;../../Commun/Externe/tinyxml2/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AssemblyDebug>true</AssemblyDebug>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../Commun/Externe/assimp/include;../../Commun/Externe/cppunit/include;../../Commun/Externe/FMOD/include;../../Commun/Externe/FreeImage/include;../../Commun/Externe/FreeType/include;../../Commun/Externe/FTGL/include;../../Commun/Externe/GLEW/include;../../Commun/Externe/glm/include;../../Commun/Externe/tinyxml2/include;../../Commun/Utilitaire;../../Commun/Utilitaire/OpenGL;../../Commun/Utilitaire/Modele;../../Commun/Utilitaire/Vue;Application;Arbre;Arbre/Noeuds;Arbre/Usines;Configuration;Interface;Tests;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;GLEW_BUILD;NDEBUG;_WINDOWS;_USRDLL;INF2990_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BrowseInformation>false</BrowseInformation>
+      <Optimization>
+      </Optimization>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;freetype246_R_x64.lib;glew32s.lib;tinyxml_R_x64.lib;assimp.lib;cppunit_R_x64.lib;ftgl.lib;fmodex64_vc.lib;FreeImage.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../Exe/$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Commun/Externe/assimp/lib;../../Commun/Externe/cppunit/lib;../../Commun/Externe/FMOD/lib;../../Commun/Externe/FreeImage/lib;../../Commun/Externe/FreeType/lib;../../Commun/Externe/FTGL/lib;../../Commun/Externe/GLEW/lib;../../Commun/Externe/tinyxml2/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+      <AssemblyDebug>false</AssemblyDebug>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+    </PostBuildEvent>
+    <Bscmake>
+      <PreserveSbr>false</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\AbstractSocketV2.cpp" />
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\GameRoom.cpp" />
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\IP.cpp" />
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\User.cpp" />
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\Utilitaire.cpp" />
+    <ClCompile Include="Application\FacadeEditeur.cpp" />
+    <ClCompile Include="Application\FacadeJeu.cpp" />
+    <ClCompile Include="Application\FacadeModele.cpp" />
+    <ClCompile Include="Application\FacadeReseau.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudBille.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudBonus.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudButoirD.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudButoirCirculaire.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudButoirG.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudCible.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudCouvercle.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudGate.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudGenerateurBille.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudMalus.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudMur.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudPaletteD.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudPaletteG.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudPortail.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudPortailTorus.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudRessort.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudTable.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudTrou.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudVide.cpp" />
+    <ClCompile Include="Arbre\ArbreRendu.cpp" />
+    <ClCompile Include="Arbre\ArbreRenduINF2990.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudAbstrait.cpp" />
+    <ClCompile Include="Arbre\Noeuds\NoeudComposite.cpp" />
+    <ClCompile Include="CommsControl\ChatControl\ChatControl.cpp" />
+    <ClCompile Include="CommsControl\ChatControl\ChatMessage.cpp" />
+    <ClCompile Include="CommsControl\ChatControl\ChatRoom.cpp" />
+    <ClCompile Include="CommsControl\CommsControl.cpp" />
+    <ClCompile Include="CommsControl\GameControl\GameControl.cpp" />
+    <ClCompile Include="CommsControl\GameServerControl\GameServerControl.cpp" />
+    <ClCompile Include="CommsControl\GameServerControl\GameServerData.cpp" />
+    <ClCompile Include="Compte\Compte.cpp" />
+    <ClCompile Include="Compte\CompteOffline.cpp" />
+    <ClCompile Include="Compte\Informations\InfoCompte.cpp" />
+    <ClCompile Include="Compte\Informations\Leaderboard.cpp" />
+    <ClCompile Include="Compte\IntelligenceArtificielle.cpp" />
+    <ClCompile Include="Compte\IntelligenceProbabiliste.cpp" />
+    <ClCompile Include="Compte\Joueur.cpp" />
+    <ClCompile Include="Configuration\ConfigScene.cpp" />
+    <ClCompile Include="Configuration\Configuration.cpp" />
+    <ClCompile Include="Eclairage\ControleurLumieres.cpp" />
+    <ClCompile Include="Eclairage\Lumiere.cpp" />
+    <ClCompile Include="Eclairage\ControleurNuanceurs.cpp" />
+    <ClCompile Include="Global\GlobalesPartie.cpp" />
+    <ClCompile Include="Interface\FacadeInterfaceNative.cpp" />
+    <ClCompile Include="Memento\CareTaker.cpp" />
+    <ClCompile Include="Memento\Memento.cpp" />
+    <ClCompile Include="Memento\Originator.cpp" />
+    <ClCompile Include="ModeJeu\Competitif.cpp" />
+    <ClCompile Include="ModeJeu\Cooperatif.cpp" />
+    <ClCompile Include="ModeJeu\ModeJeu.cpp" />
+    <ClCompile Include="QuadTree\PhysicsManager.cpp" />
+    <ClCompile Include="QuadTree\QuadTree.cpp" />
+    <ClCompile Include="Sauvegarde\ParserXML.cpp" />
+    <ClCompile Include="Sauvegarde\Propriete.cpp" />
+    <ClCompile Include="Sauvegarde\Snapshot.cpp" />
+    <ClCompile Include="Sound\ControleurSon.cpp" />
+    <ClCompile Include="Tests\ArbreRenduINF2990Test.cpp" />
+    <ClCompile Include="Tests\NoeudCompositeTest.cpp" />
+    <ClCompile Include="Tests\BancTests.cpp" />
+    <ClCompile Include="Tests\NoeudAbstraitTest.cpp" />
+    <ClCompile Include="Tests\TestUtilitaire.cpp" />
+    <ClCompile Include="Text\ControleurTexte.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurAgrandissement.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurCentreDeMasse.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurConstruireListes.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurDebug.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurDeplacement.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurDeselectionnerTout.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurDuplication.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurLimitesSelection.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurListeEnglobante.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurPalettes.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurPortail.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurPossibilite.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurRotationPoint.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurSelection.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurSelectionInverse.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurSelectionInverseMultiple.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurSelectionMultiple.cpp" />
+    <ClCompile Include="Visiteurs\VisiteurSuppression.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\AbstractSocketV2.h" />
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\GameRoom.h" />
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\IP.h" />
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\User.h" />
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\Utilitaire.h" />
+    <ClInclude Include="Application\FacadeEditeur.h" />
+    <ClInclude Include="Application\FacadeJeu.h" />
+    <ClInclude Include="Application\FacadeModele.h" />
+    <ClInclude Include="Application\FacadeReseau.h" />
+    <ClInclude Include="Arbre\Noeuds\AnimationNoeudsDefine.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudBille.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudBonus.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudButoirD.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudButoirCirculaire.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudButoirG.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudCible.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudCouvercle.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudGate.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudGenerateurBille.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudMalus.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudMur.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudPaletteD.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudPaletteG.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudPortail.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudPortailTorus.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudRessort.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudTable.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudTrou.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudVide.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudBille.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudBonus.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudButoirD.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudButoirCirculaire.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudButoirG.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudCible.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudCouvercle.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudGate.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudGenerateurBille.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudMalus.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudMur.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudPaletteD.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudPaletteG.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudPortail.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudPortailTorus.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudRessort.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudTable.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudTrou.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeudVide.h" />
+    <ClInclude Include="Arbre\ArbreRendu.h" />
+    <ClInclude Include="Arbre\ArbreRenduINF2990.h" />
+    <ClInclude Include="Arbre\Usines\UsineNoeud.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudAbstrait.h" />
+    <ClInclude Include="Arbre\Noeuds\NoeudComposite.h" />
+    <ClInclude Include="CommsControl\ChatControl\ChatControl.h" />
+    <ClInclude Include="CommsControl\ChatControl\ChatMessage.h" />
+    <ClInclude Include="CommsControl\ChatControl\ChatRoom.h" />
+    <ClInclude Include="CommsControl\CommsControl.h" />
+    <ClInclude Include="CommsControl\GameControl\GameControl.h" />
+    <ClInclude Include="CommsControl\GameServerControl\GameServerControl.h" />
+    <ClInclude Include="CommsControl\GameServerControl\GameServerData.h" />
+    <ClInclude Include="Compte\Compte.h" />
+    <ClInclude Include="Compte\CompteOffline.h" />
+    <ClInclude Include="Compte\Informations\InfoCompte.h" />
+    <ClInclude Include="Compte\Informations\Leaderboard.h" />
+    <ClInclude Include="Compte\IntelligenceArtificielle.h" />
+    <ClInclude Include="Compte\IntelligenceProbabiliste.h" />
+    <ClInclude Include="Compte\Joueur.h" />
+    <ClInclude Include="Configuration\ConfigScene.h" />
+    <ClInclude Include="Configuration\Configuration.h" />
+    <ClInclude Include="Eclairage\ControleurLumieres.h" />
+    <ClInclude Include="Eclairage\Lumiere.h" />
+    <ClInclude Include="Eclairage\ControleurNuanceurs.h" />
+    <ClInclude Include="Global\GlobalesPartie.h" />
+    <ClInclude Include="Interface\FacadeInterfaceNative.h" />
+    <ClInclude Include="Memento\CareTaker.h" />
+    <ClInclude Include="Memento\Memento.h" />
+    <ClInclude Include="Memento\Originator.h" />
+    <ClInclude Include="ModeJeu\Competitif.h" />
+    <ClInclude Include="ModeJeu\Cooperatif.h" />
+    <ClInclude Include="ModeJeu\ModeJeu.h" />
+    <ClInclude Include="QuadTree\PhysicsManager.h" />
+    <ClInclude Include="QuadTree\QuadTree.h" />
+    <ClInclude Include="Sauvegarde\ParserXML.h" />
+    <ClInclude Include="Sauvegarde\Propriete.h" />
+    <ClInclude Include="Sauvegarde\Snapshot.h" />
+    <ClInclude Include="Sound\ControleurSon.h" />
+    <ClInclude Include="Tests\ArbreRenduINF2990Test.h" />
+    <ClInclude Include="Tests\NoeudCompositeTest.h" />
+    <ClInclude Include="Tests\BancTests.h" />
+    <ClInclude Include="Tests\NoeudAbstraitTest.h" />
+    <ClInclude Include="Tests\TestUtilitaire.h" />
+    <ClInclude Include="Text\ControleurTexte.h" />
+    <ClInclude Include="Text\ControleurTexteDefine.h" />
+    <ClInclude Include="Visiteurs\VisiteurAbstrait.h" />
+    <ClInclude Include="Visiteurs\VisiteurAgrandissement.h" />
+    <ClInclude Include="Visiteurs\VisiteurCentreDeMasse.h" />
+    <ClInclude Include="Visiteurs\VisiteurConstruireListes.h" />
+    <ClInclude Include="Visiteurs\VisiteurDebug.h" />
+    <ClInclude Include="Visiteurs\VisiteurDeplacement.h" />
+    <ClInclude Include="Visiteurs\VisiteurDeselectionnerTout.h" />
+    <ClInclude Include="Visiteurs\VisiteurDuplication.h" />
+    <ClInclude Include="Visiteurs\VisiteurLimitesSelection.h" />
+    <ClInclude Include="Visiteurs\VisiteurListeEnglobante.h" />
+    <ClInclude Include="Visiteurs\VisiteurPalettes.h" />
+    <ClInclude Include="Visiteurs\VisiteurPortail.h" />
+    <ClInclude Include="Visiteurs\VisiteurPossibilite.h" />
+    <ClInclude Include="Visiteurs\VisiteurRotationPoint.h" />
+    <ClInclude Include="Visiteurs\VisiteurSelection.h" />
+    <ClInclude Include="Visiteurs\VisiteurSelectionInverse.h" />
+    <ClInclude Include="Visiteurs\VisiteurSelectionInverseMultiple.h" />
+    <ClInclude Include="Visiteurs\VisiteurSelectionMultiple.h" />
+    <ClInclude Include="Visiteurs\VisiteurSuppression.h" />
+    <ClInclude Include="Visiteurs\VisiteurXML.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Commun\Utilitaire\Utilitaire.vcxproj">
+      <Project>{bb8c9c8a-3b65-4599-b4fe-ca965ee76d2a}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

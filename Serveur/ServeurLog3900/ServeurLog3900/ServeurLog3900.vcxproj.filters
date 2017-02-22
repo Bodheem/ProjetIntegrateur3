@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\SQL">
+      <UniqueIdentifier>{80122617-d7a5-4f43-b172-3be9de297367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SQL">
+      <UniqueIdentifier>{94df6abd-9ce3-49fe-b3b7-4074f14b7593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Chat">
+      <UniqueIdentifier>{8202921b-1e29-4c38-bebb-1394354ea607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Chat">
+      <UniqueIdentifier>{c1bb9747-8a1b-4a0e-bfb9-d16745910550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Users">
+      <UniqueIdentifier>{287b4369-3aa7-4c8d-93cd-35f1a0df1142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Users">
+      <UniqueIdentifier>{fe8ac83c-98cc-43e8-a37b-54cccd6db96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Multiplayer">
+      <UniqueIdentifier>{2ce307c1-3642-4703-983c-95a815020c21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Multiplayer">
+      <UniqueIdentifier>{f2b2cd47-f5e4-422f-b335-b986195c85cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilitaires">
+      <UniqueIdentifier>{615d0a6e-62b9-4567-9301-e31eb24f7feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilitaires">
+      <UniqueIdentifier>{7371146b-008c-456c-b741-ee4bde0bb306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XML">
+      <UniqueIdentifier>{0a192597-e07f-43e9-b102-379d239083cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\XML">
+      <UniqueIdentifier>{13213e5f-11ea-43d4-9a50-317e186aaaa9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerControl\ServerData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerControl\ServerControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SQL\Database.cpp">
+      <Filter>Source Files\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="SQL\sqlite3.c">
+      <Filter>Source Files\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatControl\ChatControl.cpp">
+      <Filter>Source Files\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatControl\ChatRoom.cpp">
+      <Filter>Source Files\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatControl\ChatMessage.cpp">
+      <Filter>Source Files\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedFiles\User.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="UserControl\UserControl.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatControl\UserMessageQueue.cpp">
+      <Filter>Source Files\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedFiles\GameRoom.cpp">
+      <Filter>Source Files\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedFiles\AbstractSocketV2.cpp">
+      <Filter>Source Files\Utilitaires</Filter>
+    </ClCompile>
+    <ClCompile Include="PortStatus\PortStatus.cpp">
+      <Filter>Source Files\Utilitaires</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedFiles\Utilitaire.cpp">
+      <Filter>Source Files\Utilitaires</Filter>
+    </ClCompile>
+    <ClCompile Include="GameControl\GameControl.cpp">
+      <Filter>Source Files\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedFiles\IP.cpp">
+      <Filter>Source Files\Utilitaires</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\tinyxml2.cpp">
+      <Filter>Source Files\XML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ServerControl\ServerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerControl\ServerControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SQL\Database.h">
+      <Filter>Header Files\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="SQL\sqlite3ext.h">
+      <Filter>Header Files\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatControl\ChatControl.h">
+      <Filter>Header Files\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatControl\ChatMessage.h">
+      <Filter>Header Files\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatControl\ChatRoom.h">
+      <Filter>Header Files\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedFiles\User.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="UserControl\UserControl.h">
+      <Filter>Header Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatControl\UserMessageQueue.h">
+      <Filter>Header Files\Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedFiles\GameRoom.h">
+      <Filter>Header Files\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedFiles\AbstractSocketV2.h">
+      <Filter>Header Files\Utilitaires</Filter>
+    </ClInclude>
+    <ClInclude Include="PortStatus\PortStatus.h">
+      <Filter>Header Files\Utilitaires</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedFiles\Utilitaire.h">
+      <Filter>Header Files\Utilitaires</Filter>
+    </ClInclude>
+    <ClInclude Include="GameControl\GameControl.h">
+      <Filter>Header Files\Multiplayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedFiles\IP.h">
+      <Filter>Header Files\Utilitaires</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\tinyxml2.h">
+      <Filter>Header Files\XML</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

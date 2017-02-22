@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{4a324388-bea8-423a-bc50-ccdf2fef915c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Interface">
+      <UniqueIdentifier>{c6bd3f9c-d667-48a1-8aae-154a5de4c711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arbre">
+      <UniqueIdentifier>{7472a721-0254-4bca-944a-d230f0ffb5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Arbre\Noeuds">
+      <UniqueIdentifier>{673b2491-ee8e-448a-877c-dcffa5036e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Application">
+      <UniqueIdentifier>{c845f3fe-60ec-4b69-870e-1b94806be78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interface">
+      <UniqueIdentifier>{6c8e2c48-de9f-4091-bc76-fed408577f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Arbre">
+      <UniqueIdentifier>{824db547-4831-4bb7-b7f2-70d05299ed49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Arbre\Usines">
+      <UniqueIdentifier>{2d7e83f6-88e0-4835-a145-53a4c662829e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Arbre\Noeuds">
+      <UniqueIdentifier>{adf7252c-e0c2-4e7e-9194-a254f846e61d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{0dbbcffd-49b5-4878-a09c-22650c7a5093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{d13df2a5-057c-4e3f-b7b4-d458ca9ae3b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Visiteurs">
+      <UniqueIdentifier>{cb6c0b55-33b3-451e-b3cd-21f090a4fecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Visiteurs">
+      <UniqueIdentifier>{41f69bc3-3b6b-43f1-a252-b0933053dc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Configuration">
+      <UniqueIdentifier>{86298388-2cbb-48aa-b833-ba4d8e56b696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Configuration">
+      <UniqueIdentifier>{370dbc50-e3f3-4479-b4aa-1906a0109d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuadTree">
+      <UniqueIdentifier>{3d3767f2-2533-4d0a-a251-ecddad309587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QuadTree">
+      <UniqueIdentifier>{b21453d8-97af-4097-a421-1e5548145fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Global">
+      <UniqueIdentifier>{48887700-5cdf-473d-8801-6a2e8c1dfe41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Global">
+      <UniqueIdentifier>{d4d41da7-5c04-45fd-890d-9d66d60df0d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{59f0b8db-5000-488c-9099-2ab5206ae175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{8eb9fab5-04e0-4a8f-93ad-415e9eb4f472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Eclairage">
+      <UniqueIdentifier>{d9757b3e-80f0-4a6c-88ab-df6af2bccda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Eclairage">
+      <UniqueIdentifier>{e7dac68f-698b-4100-ac66-90ffb263d7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memento">
+      <UniqueIdentifier>{7fa627b5-6751-43f0-b4c8-44fb6853c544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Memento">
+      <UniqueIdentifier>{5a0b94c8-bf4f-4de3-ae5d-17537138a4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Text">
+      <UniqueIdentifier>{ed5b5eb0-c8fd-476d-a85f-365a55a821db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Texte">
+      <UniqueIdentifier>{30d299ed-3e43-42d2-a0da-66fd50207eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Compte">
+      <UniqueIdentifier>{4d7b6a1f-2cf6-4d3b-a974-df5b977e81c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compte">
+      <UniqueIdentifier>{8d4cab4b-4273-4280-83a2-618bff3127fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sauvegarde">
+      <UniqueIdentifier>{fd9782a2-1f57-4076-b053-53e49b6e0568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Compte\Informations">
+      <UniqueIdentifier>{fc15bbfa-b542-4c0c-9d6b-8e8f9380d6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compte\Informations">
+      <UniqueIdentifier>{2bd63cee-6b8b-49fa-9660-bc67ef246c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommsControl">
+      <UniqueIdentifier>{471fdc0a-99b5-48eb-b9ed-a4f1e2b06720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommsControl\ChatControl">
+      <UniqueIdentifier>{53b5af1a-7b41-4b9d-b47e-7124174b83bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommsControl\Utilitaires">
+      <UniqueIdentifier>{bd0c8ef1-9f9e-4bab-8bf5-151af93475b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommsControl">
+      <UniqueIdentifier>{1879a6d6-a85b-4e2e-8d48-50186d6e3f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommsControl\Utilitaire">
+      <UniqueIdentifier>{57e4b579-d26d-4a52-ba5e-d9157bb39068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommsControl\ChatControl">
+      <UniqueIdentifier>{70534f49-3a19-477b-b319-038b25146a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compte">
+      <UniqueIdentifier>{0091c32b-d177-488d-9690-4f579e8ec1db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sauvegarde">
+      <UniqueIdentifier>{73914093-b438-4422-8aeb-8a86e99a24a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Compte">
+      <UniqueIdentifier>{7e735982-29ab-4c66-866a-114667678828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sauvegarde">
+      <UniqueIdentifier>{3ab537db-7862-410a-87d4-48875dab4ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommsControl\GameControl">
+      <UniqueIdentifier>{bbef7d6c-481a-40d3-b06f-c06d62fd37a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommsControl\GameControl">
+      <UniqueIdentifier>{c49c00a0-d06a-4d60-bc23-fbc7f2b39a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ModeJeu">
+      <UniqueIdentifier>{587f26f1-59a6-4ddf-9726-7893e6e43295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ModeJeu">
+      <UniqueIdentifier>{65c955f6-f0d8-48b8-9cce-d19ef43696ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\FacadeModele.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\ArbreRendu.cpp">
+      <Filter>Source Files\Arbre</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\ArbreRenduINF2990.cpp">
+      <Filter>Source Files\Arbre</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudAbstrait.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudComposite.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\NoeudAbstraitTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\BancTests.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\NoeudCompositeTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\FacadeInterfaceNative.cpp">
+      <Filter>Source Files\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudTrou.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudRessort.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudPortail.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudMur.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudGenerateurBille.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudCible.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurDeplacement.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudVide.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurAgrandissement.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudTable.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurSelection.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudBille.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudButoirCirculaire.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurCentreDeMasse.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurRotationPoint.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurSelectionMultiple.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurDuplication.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudCouvercle.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurSelectionInverse.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurDeselectionnerTout.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurSuppression.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurSelectionInverseMultiple.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurLimitesSelection.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurListeEnglobante.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudPaletteD.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudPaletteG.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudButoirD.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudButoirG.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurPossibilite.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\ArbreRenduINF2990Test.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests\TestUtilitaire.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration\ConfigScene.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree\QuadTree.cpp">
+      <Filter>Source Files\QuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurConstruireListes.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurDebug.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudPortailTorus.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudGate.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\ControleurSon.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Eclairage\Lumiere.cpp">
+      <Filter>Source Files\Eclairage</Filter>
+    </ClCompile>
+    <ClCompile Include="Eclairage\ControleurLumieres.cpp">
+      <Filter>Source Files\Eclairage</Filter>
+    </ClCompile>
+    <ClCompile Include="Eclairage\ControleurNuanceurs.cpp">
+      <Filter>Source Files\Eclairage</Filter>
+    </ClCompile>
+    <ClCompile Include="Memento\CareTaker.cpp">
+      <Filter>Source Files\Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="Memento\Originator.cpp">
+      <Filter>Source Files\Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="Memento\Memento.cpp">
+      <Filter>Source Files\Memento</Filter>
+    </ClCompile>
+    <ClCompile Include="Text\ControleurTexte.cpp">
+      <Filter>Source Files\Texte</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\GlobalesPartie.cpp">
+      <Filter>Source Files\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="CommsControl\ChatControl\ChatControl.cpp">
+      <Filter>Source Files\CommsControl\ChatControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CommsControl\ChatControl\ChatMessage.cpp">
+      <Filter>Source Files\CommsControl\ChatControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CommsControl\ChatControl\ChatRoom.cpp">
+      <Filter>Source Files\CommsControl\ChatControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CommsControl\CommsControl.cpp">
+      <Filter>Source Files\CommsControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Compte\Compte.cpp">
+      <Filter>Source Files\Compte</Filter>
+    </ClCompile>
+    <ClCompile Include="Compte\CompteOffline.cpp">
+      <Filter>Source Files\Compte</Filter>
+    </ClCompile>
+    <ClCompile Include="Compte\Joueur.cpp">
+      <Filter>Source Files\Compte</Filter>
+    </ClCompile>
+    <ClCompile Include="Compte\Informations\InfoCompte.cpp">
+      <Filter>Source Files\Compte\Informations</Filter>
+    </ClCompile>
+    <ClCompile Include="Compte\Informations\Leaderboard.cpp">
+      <Filter>Source Files\Compte\Informations</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration\Configuration.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="CommsControl\ChatControl\ChatControl.cpp">
+      <Filter>Source Files\CommsControl\ChatControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauvegarde\Propriete.cpp">
+      <Filter>Source Files\Sauvegarde</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauvegarde\ParserXML.cpp">
+      <Filter>Source Files\Sauvegarde</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudBonus.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Arbre\Noeuds\NoeudMalus.cpp">
+      <Filter>Source Files\Arbre\Noeuds</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurPortail.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\FacadeReseau.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\FacadeEditeur.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\FacadeJeu.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree\PhysicsManager.cpp">
+      <Filter>Source Files\QuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\User.cpp">
+      <Filter>Source Files\CommsControl\Utilitaire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\Utilitaire.cpp">
+      <Filter>Source Files\CommsControl\Utilitaire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\AbstractSocketV2.cpp">
+      <Filter>Source Files\CommsControl\Utilitaire</Filter>
+    </ClCompile>
+    <ClCompile Include="CommsControl\GameControl\GameControl.cpp">
+      <Filter>Source Files\CommsControl\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\GameRoom.cpp">
+      <Filter>Source Files\CommsControl\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Compte\IntelligenceArtificielle.cpp">
+      <Filter>Source Files\Compte</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Serveur\SharedFiles\IP.cpp">
+      <Filter>Source Files\CommsControl\Utilitaire</Filter>
+    </ClCompile>
+    <ClCompile Include="CommsControl\GameServerControl\GameServerControl.cpp">
+      <Filter>Source Files\CommsControl\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CommsControl\GameServerControl\GameServerData.cpp">
+      <Filter>Source Files\CommsControl\GameControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauvegarde\Snapshot.cpp">
+      <Filter>Source Files\Sauvegarde</Filter>
+    </ClCompile>
+    <ClCompile Include="Compte\IntelligenceProbabiliste.cpp">
+      <Filter>Source Files\Compte</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeJeu\Competitif.cpp">
+      <Filter>Source Files\ModeJeu</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeJeu\Cooperatif.cpp">
+      <Filter>Source Files\ModeJeu</Filter>
+    </ClCompile>
+    <ClCompile Include="ModeJeu\ModeJeu.cpp">
+      <Filter>Source Files\ModeJeu</Filter>
+    </ClCompile>
+    <ClCompile Include="Visiteurs\VisiteurPalettes.cpp">
+      <Filter>Source Files\Visiteurs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\FacadeModele.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\ArbreRendu.h">
+      <Filter>Header Files\Arbre</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\ArbreRenduINF2990.h">
+      <Filter>Header Files\Arbre</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeud.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudAbstrait.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudComposite.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\NoeudAbstraitTest.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\BancTests.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\NoeudCompositeTest.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\FacadeInterfaceNative.h">
+      <Filter>Header Files\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudCible.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudGenerateurBille.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudMur.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudPortail.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudRessort.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudTrou.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudCible.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudGenerateurBille.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudMur.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudPortail.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudRessort.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudTrou.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurAbstrait.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurDeplacement.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudVide.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudVide.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurAgrandissement.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudTable.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudTable.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurSelection.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudBille.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudBille.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudButoirCirculaire.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudButoirCirculaire.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurXML.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurCentreDeMasse.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurRotationPoint.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurSelectionMultiple.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurDuplication.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudCouvercle.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudCouvercle.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurSelectionInverse.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurDeselectionnerTout.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurSuppression.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurSelectionInverseMultiple.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurLimitesSelection.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurListeEnglobante.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudPaletteD.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudPaletteD.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudPaletteG.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudButoirD.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudButoirD.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudButoirG.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudButoirG.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurPossibilite.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudPaletteG.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\ArbreRenduINF2990Test.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudPaletteG.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests\TestUtilitaire.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration\ConfigScene.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree\QuadTree.h">
+      <Filter>Header Files\QuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurConstruireListes.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurDebug.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudPortailTorus.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudPortailTorus.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudGate.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudGate.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\AnimationNoeudsDefine.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\ControleurSon.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Eclairage\Lumiere.h">
+      <Filter>Header Files\Eclairage</Filter>
+    </ClInclude>
+    <ClInclude Include="Eclairage\ControleurLumieres.h">
+      <Filter>Header Files\Eclairage</Filter>
+    </ClInclude>
+    <ClInclude Include="Eclairage\ControleurNuanceurs.h">
+      <Filter>Header Files\Eclairage</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento\CareTaker.h">
+      <Filter>Header Files\Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento\Originator.h">
+      <Filter>Header Files\Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento\Memento.h">
+      <Filter>Header Files\Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\ControleurTexte.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Text\ControleurTexteDefine.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\GlobalesPartie.h">
+      <Filter>Header Files\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\CommsControl.h">
+      <Filter>Header Files\CommsControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\ChatControl\ChatControl.h">
+      <Filter>Header Files\CommsControl\ChatControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\ChatControl\ChatMessage.h">
+      <Filter>Header Files\CommsControl\ChatControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\ChatControl\ChatRoom.h">
+      <Filter>Header Files\CommsControl\ChatControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Compte\Compte.h">
+      <Filter>Header Files\Compte</Filter>
+    </ClInclude>
+    <ClInclude Include="Compte\CompteOffline.h">
+      <Filter>Header Files\Compte</Filter>
+    </ClInclude>
+    <ClInclude Include="Compte\Joueur.h">
+      <Filter>Header Files\Compte</Filter>
+    </ClInclude>
+    <ClInclude Include="Compte\Informations\InfoCompte.h">
+      <Filter>Header Files\Compte\Informations</Filter>
+    </ClInclude>
+    <ClInclude Include="Compte\Informations\Leaderboard.h">
+      <Filter>Header Files\Compte\Informations</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration\Configuration.h">
+      <Filter>Header Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\CommsControl.h">
+      <Filter>Header Files\CommsControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauvegarde\Propriete.h">
+      <Filter>Header Files\Sauvegarde</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\ChatControl\ChatControl.h">
+      <Filter>Header Files\CommsControl\ChatControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\ChatControl\ChatMessage.h">
+      <Filter>Header Files\CommsControl\ChatControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\ChatControl\ChatRoom.h">
+      <Filter>Header Files\CommsControl\ChatControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudBonus.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Noeuds\NoeudMalus.h">
+      <Filter>Header Files\Arbre\Noeuds</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudBonus.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Arbre\Usines\UsineNoeudMalus.h">
+      <Filter>Header Files\Arbre\Usines</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurPortail.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\FacadeReseau.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\FacadeEditeur.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\FacadeJeu.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree\PhysicsManager.h">
+      <Filter>Header Files\QuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauvegarde\ParserXML.h">
+      <Filter>Header Files\Sauvegarde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\User.h">
+      <Filter>Header Files\CommsControl\Utilitaires</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\Utilitaire.h">
+      <Filter>Header Files\CommsControl\Utilitaires</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\AbstractSocketV2.h">
+      <Filter>Header Files\CommsControl\Utilitaires</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\GameControl\GameControl.h">
+      <Filter>Header Files\CommsControl\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\GameRoom.h">
+      <Filter>Header Files\CommsControl\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Compte\IntelligenceArtificielle.h">
+      <Filter>Header Files\Compte</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Serveur\SharedFiles\IP.h">
+      <Filter>Header Files\CommsControl\Utilitaires</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\GameServerControl\GameServerControl.h">
+      <Filter>Header Files\CommsControl\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CommsControl\GameServerControl\GameServerData.h">
+      <Filter>Header Files\CommsControl\GameControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauvegarde\Snapshot.h">
+      <Filter>Header Files\Sauvegarde</Filter>
+    </ClInclude>
+    <ClInclude Include="Compte\IntelligenceProbabiliste.h">
+      <Filter>Header Files\Compte</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeJeu\Competitif.h">
+      <Filter>Header Files\ModeJeu</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeJeu\Cooperatif.h">
+      <Filter>Header Files\ModeJeu</Filter>
+    </ClInclude>
+    <ClInclude Include="ModeJeu\ModeJeu.h">
+      <Filter>Header Files\ModeJeu</Filter>
+    </ClInclude>
+    <ClInclude Include="Visiteurs\VisiteurPalettes.h">
+      <Filter>Header Files\Visiteurs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,137 @@
+<Achievements>
+	<Achievement Valeur = "AC11">
+		<Titre Valeur = "Whelp."/>
+		<Points Valeur = "5"/>
+		<Texte Valeur = "Obtenez 500 points en une partie solo"/>
+		<Image Valeur = "Highscore.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC12">	
+		<Titre Valeur = "MLG Pro"/>
+		<Points Valeur = "10"/>
+		<Texte Valeur = "Obtenez 1000 points en une partie solo"/>
+		<Image Valeur = "Highscore.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC13">
+		<Titre Valeur = "IT'S OVER 9000!"/>
+		<Points Valeur = "20"/>
+		<Texte Valeur = "Obtenez 9000 points en une partie solo"/>
+		<Image Valeur = "Highscore.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC21">
+		<Titre Valeur = "My name is Max"/>
+		<Points Valeur = "5"/>
+		<Texte Valeur = "Gagnez votre première partie multijoueur cooperatif"/>
+		<Image Valeur = "spGames.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC22">
+		<Titre Valeur = "My world is fire and blood"/>
+		<Points Valeur = "10"/>
+		<Texte Valeur = "Gagnez 5 parties en mode multijoueur cooperatif"/>
+		<Image Valeur = "spGames.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC23">
+		<Titre Valeur = "I am awaited"/>
+		<Points Valeur = "20"/>
+		<Texte Valeur = "Gagnez 20 parties en mode multijoueur cooperatif"/>
+		<Image Valeur = "spGames.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC31">
+		<Titre Valeur = "Stuck in London"/>
+		<Points Valeur = "5"/>
+		<Texte Valeur = "Gagnez votre premier Shekel"/>
+		<Image Valeur = "Cash.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC32">
+		<Titre Valeur = "Shipping Gold"/>
+		<Points Valeur = "10"/>
+		<Texte Valeur = "Amassez 1000 Shekels"/>
+		<Image Valeur = "Cash.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC33">
+			<Titre Valeur = "Nigerian Prince"/>
+			<Points Valeur = "20"/>
+			<Texte Valeur = "Amassez 10 000 Shekels"/>
+			<Image Valeur = "Cash.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC41">
+		<Titre Valeur = "Copperhead"/>
+		<Points Valeur = "5"/>
+		<Texte Valeur = "Gagnez votre première partie en mode multijoueur"/>
+		<Image Valeur = "mpGames.jpg"/>
+	</Achievement>
+		<Achievement Valeur = "AC42">
+		<Titre Valeur = "California Mountain Snake"/>
+		<Points Valeur = "10"/>
+		<Texte Valeur = "Gagnez 5 Parties en mode multijoueur"/>
+		<Image Valeur = "mpGames.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC43">
+		<Titre Valeur = "Black Mamba"/>
+		<Points Valeur = "20"/>
+		<Texte Valeur = "Gagnez 20 parties en mode multijoueur"/>
+		<Image Valeur = "mpGames.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC51">
+		<Titre Valeur = "Show-Off"/>
+		<Points Valeur = "5"/>
+		<Texte Valeur = "Achetez votre premier avatar sur le marketplace"/>
+		<Image Valeur = "Avatars.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC52">
+		<Titre Valeur = "Le Domaine"/>
+		<Points Valeur = "10"/>
+		<Texte Valeur = "Achetez les avatars de la famille De Touchet"/>
+		<Image Valeur = "Avatars.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC53">
+		<Titre Valeur = "Family Tree"/>
+		<Points Valeur = "20"/>
+		<Texte Valeur = "Achetez tous les avatars"/>
+		<Image Valeur = "Avatars.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC61">
+		<Titre Valeur = "Skript Kiddie"/>
+		<Points Valeur = "5"/>
+		<Texte Valeur = "Achetez votre première carte sur le marketplace"/>
+		<Image Valeur = "maps.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC62">
+		<Titre Valeur = "Byte Kode Injektor"/>
+		<Points Valeur = "10"/>
+		<Texte Valeur = "Achetez 5 cartes sur le marketplace"/>
+		<Image Valeur = "maps.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC63">
+		<Titre Valeur = "Data Miner"/>
+		<Points Valeur = "20"/>
+		<Texte Valeur = "Achetez 10 cartes sur le marketplace"/>
+		<Image Valeur = "maps.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC70" Multi = "0">
+		<Titre Valeur = "Make America Great Again"/>
+		<Points Valeur = "10"/>
+		<Texte Valeur = "Creez un mur"/>
+		<Image Valeur = "friends.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC80" Multi = "0">
+		<Titre Valeur = "Navy Seal"/>
+		<Points Valeur = "20"/>
+		<Texte Valeur = "gagnez une partie solo sans perdre de billes"/>
+		<Image Valeur = "Perfect.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC90" Multi = "0">
+		<Titre Valeur = "DMCA Strike"/>
+		<Points Valeur = "10"/>
+		<Texte Valeur = "Sauvegardez une carte avec un droit d'auteur"/>
+		<Image Valeur = "community.jpg"/>
+	</Achievement>
+	<Achievement Valeur = "AC100" Multi = "0">
+		<Titre Valeur = "Git Gud"/>
+		<Points Valeur = "5"/>
+		<Texte Valeur = "Terminez le tutoriel"/>
+		<Image Valeur = "gitgud.jpg"/>
+	</Achievement>
+</Achievements>
+	
+	
+	

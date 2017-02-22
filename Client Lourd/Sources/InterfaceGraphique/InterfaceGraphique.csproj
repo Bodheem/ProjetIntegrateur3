@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B861DACD-1D37-4C9D-A1D0-3468C9072C74}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InterfaceGraphique</RootNamespace>
+    <AssemblyName>PainBall</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Exe\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Exe\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>%24this.Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge.Video">
+      <HintPath>..\..\Commun\Externe\DLL\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\..\Commun\Externe\DLL\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fenetres\AchievementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\AchievementForm.Designer.cs">
+      <DependentUpon>AchievementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuCompletPartials\MenuCompletCampaign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCompletPartials\MenuCompletCreateGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCompletPartials\MenuCompletJoinGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCompletPartials\MenuCompletMarketplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tutoriel.cs" />
+    <Compile Include="ColorList.cs" />
+    <Compile Include="Fenetres\Aide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\Aide.Designer.cs">
+      <DependentUpon>Aide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\Campagne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\Campagne.Designer.cs">
+      <DependentUpon>Campagne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\ChatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\ChatForm.Designer.cs">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\Configuration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\Configuration.Designer.cs">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\EtatAbstrait.cs" />
+    <Compile Include="Etats\EtatEditeurAbstrait.cs" />
+    <Compile Include="Fenetres\Editeur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\Editeur.Designer.cs">
+      <DependentUpon>Editeur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etats\EtatJeuAbstrait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\LoadingBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\LoadingBar.Designer.cs">
+      <DependentUpon>LoadingBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\MenuComplet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\MenuComplet.Designer.cs">
+      <DependentUpon>MenuComplet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\ModeJeu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\ModeJeu.Designer.cs">
+      <DependentUpon>ModeJeu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\PartieRapide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\PartieRapide.Designer.cs">
+      <DependentUpon>PartieRapide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\PartieTerminee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\PartieTerminee.designer.cs">
+      <DependentUpon>PartieTerminee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FonctionsNatives.cs" />
+    <Compile Include="Langages\Langage.cs" />
+    <Compile Include="MenuCompletPartials\MenuCompletLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCompletPartials\MenuCompletMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCompletPartials\MenuCompletOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuCompletPartials\MenuCompletQuickGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Outils.cs" />
+    <Compile Include="PlayerInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Fenetres\Proprietes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\Proprietes.Designer.cs">
+      <DependentUpon>Proprietes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fenetres\ZoneInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fenetres\ZoneInfo.Designer.cs">
+      <DependentUpon>ZoneInfo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Fenetres\AchievementForm.resx">
+      <DependentUpon>AchievementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\Aide.resx">
+      <DependentUpon>Aide.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\Campagne.resx">
+      <DependentUpon>Campagne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\ChatForm.resx">
+      <DependentUpon>ChatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\Configuration.resx">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\Editeur.en.resx">
+      <DependentUpon>Editeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\Editeur.resx">
+      <DependentUpon>Editeur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\LoadingBar.resx">
+      <DependentUpon>LoadingBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\MenuComplet.en.resx">
+      <DependentUpon>MenuComplet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\MenuComplet.fr.resx">
+      <DependentUpon>MenuComplet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\MenuComplet.resx">
+      <DependentUpon>MenuComplet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\ModeJeu.resx">
+      <DependentUpon>ModeJeu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\PartieRapide.resx">
+      <DependentUpon>PartieRapide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\PartieTerminee.resx">
+      <DependentUpon>PartieTerminee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\Proprietes.resx">
+      <DependentUpon>Proprietes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fenetres\ZoneInfo.resx">
+      <DependentUpon>ZoneInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Diablo.otf" />
+    <EmbeddedResource Include="Resources\diablo_h.ttf" />
+    <None Include="Resources\Icons8-Windows-8-Gaming-Pinball.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\OptimusPrinceps.ttf" />
+    <None Include="Resources\pinball-ball-silver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tablePhoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaintTrinity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButoirTriangD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButoirTriangG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Generateur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDJ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDJ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PGJ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PGJ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Portail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ressort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trou.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="%24this.Icon.ico" />
+    <None Include="Resources\testBlack.png" />
+    <None Include="Resources\Suprise_Motherf-cker_Sound_Effect.wav" />
+    <None Include="Resources\spookyGif.gif" />
+    <None Include="Resources\Trophy.png" />
+    <None Include="Resources\titleScreen.png" />
+    <None Include="Resources\VueOrbite.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\scale.png" />
+    <None Include="Resources\Selection.png" />
+    <None Include="Resources\zoomElastique.png" />
+    <None Include="Resources\SelectionSimple.gif" />
+    <None Include="Resources\ZoomElastique.gif" />
+    <None Include="Resources\Suppression.gif" />
+    <None Include="Resources\SelectionMultiple.gif" />
+    <None Include="Resources\Trou.gif" />
+    <None Include="Resources\SaveAs.png" />
+    <None Include="Resources\ZoomOut.png" />
+    <None Include="Resources\zoomIN.png" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\Tester.png" />
+    <None Include="Resources\Scale.gif" />
+    <None Include="Resources\open.png" />
+    <None Include="Resources\Deplacement.gif" />
+    <None Include="Resources\Duplication.gif" />
+    <None Include="Resources\RotationSimple.gif" />
+    <None Include="Resources\NouveauFichier.png" />
+    <None Include="Resources\Return home.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\enregistrersous.png" />
+    <None Include="Resources\Ouvrir.png" />
+    <None Include="Resources\Proprietes.png" />
+    <None Include="Resources\Quit.png" />
+    <None Include="Resources\NewMap.jpg" />
+    <None Include="Resources\Palettes.gif" />
+    <None Include="Resources\ButoirTriangulaire.gif" />
+    <None Include="Resources\Cible.gif" />
+    <None Include="Resources\Generateur.gif" />
+    <None Include="Resources\Mur.gif" />
+    <None Include="Resources\Portals.gif" />
+    <None Include="Resources\Porte.gif" />
+    <None Include="Resources\Ressort.gif" />
+    <None Include="Resources\ButoirCirculaire.gif" />
+    <None Include="Resources\Creation.gif" />
+    <None Include="Resources\ressort2.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\move.png" />
+    <None Include="Resources\rotation.png" />
+    <None Include="Resources\duplicate.png" />
+    <None Include="Resources\redo.png" />
+    <None Include="Resources\DoUndo.gif" />
+    <None Include="Resources\camera.png" />
+    <None Include="Resources\buttonStock1.png" />
+    <None Include="Resources\buttonStock1d.png" />
+    <None Include="Resources\buttonStock1h.png" />
+    <None Include="Resources\Image_bloodborne-20.jpg" />
+    <None Include="Resources\borderStock1.png" />
+    <None Include="Resources\borderStock.bmp" />
+    <None Include="Resources\borderStock.png" />
+    <None Include="Resources\borderSmall.bmp" />
+    <None Include="Resources\10489705_10152734636012464_5968101506518312522_n.jpg" />
+    <None Include="Resources\french_flag.bmp" />
+    <None Include="Resources\french_flag.jpg" />
+    <None Include="Resources\Great-Britain-Flag-great-britain-13511748-1920-1200.jpg" />
+    <None Include="Resources\Avatar.png" />
+    <None Include="Resources\coinSpin.gif" />
+    <None Include="Resources\275151__bird-man__gun-shot.wav" />
+    <None Include="Resources\messagePop.wav" />
+    <None Include="Resources\AIRPORN.wav" />
+    <None Include="Resources\Help btn.png" />
+    <None Include="Resources\bonus.png" />
+    <None Include="Resources\malus.png" />
+    <Content Include="Resources\save.png" />
+    <None Include="Resources\cible.jpeg" />
+    <None Include="Resources\winSound.wav" />
+    <None Include="Resources\wink.gif" />
+    <None Include="Resources\gate.jpg" />
+    <None Include="Resources\game_over.wav" />
+    <None Include="Resources\Fireworks.wav" />
+    <None Include="Resources\Win.gif" />
+    <None Include="Resources\Lose.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="'$(SQLDBExtensionsRefPath)' == ''" />
+  <PropertyGroup>
+    <SsdtUnitTestVersion>2.0</SsdtUnitTestVersion>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

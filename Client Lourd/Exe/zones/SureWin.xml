@@ -1,0 +1,72 @@
+<root>
+    <Proprietes>
+        <Author Valeur="TEST"/>
+        <Difficulte Valeur="1"/>
+        <ID Valeur="TEST"/>
+        <LastModificationBy Valeur="HORS-LIGNE"/>
+        <PointsBilleGratuite Valeur="500"/>
+        <PointsButoir Valeur="100"/>
+        <PointsCible Valeur="100"/>
+        <PointsTriangulaire Valeur="100"/>
+        <PointsVictoire Valeur="400"/>
+    </Proprietes>
+    <arbreRenduINF2990>
+        <table nbEnfants="9">
+            <trou id="0">
+                <Position X="-8.4539262577666872" Y="-115.83455213263773" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </trou>
+            <generateurbille id="1">
+                <Position X="-14.032983955260969" Y="105.23559958234689" Z="-1.3502960205078125"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </generateurbille>
+            <butoircirculaire id="2">
+                <Position X="-13.684292849167573" Y="-4.9507851841123323" Z="11.662358283996582"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoircirculaire>
+            <butoircirculaire id="3">
+                <Position X="12.118849001743612" Y="-5.2994762751454205" Z="11.662358283996582"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoircirculaire>
+            <butoircirculaire id="4">
+                <Position X="40.014137489215109" Y="-4.9507851841123314" Z="11.662358283996582"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoircirculaire>
+            <butoircirculaire id="5">
+                <Position X="-39.836125806172127" Y="-5.6481673661785274" Z="11.662358283996582"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoircirculaire>
+            <butoircirculaire id="6">
+                <Position X="-66.336649869270104" Y="-2.8586386379137307" Z="11.662358283996582"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoircirculaire>
+            <ressort id="7">
+                <Position X="49.080106247643364" Y="-113.74240558643913" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </ressort>
+            <ressort id="8">
+                <Position X="-73.659163097231385" Y="-117.22931649677012" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </ressort>
+        </table>
+        <couvercle/>
+    </arbreRenduINF2990>
+</root>

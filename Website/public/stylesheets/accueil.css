@@ -1,0 +1,91 @@
+#accueil {
+    background-color: #808080;
+}
+
+/*img {
+    width: 736px;
+    height: 200px;
+    margin: 20px auto 10px;
+    display: block;
+}*/
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    /*border: 1px solid black;*/
+    border : none;
+}
+
+th {
+    vertical-align: middle;
+}
+
+td {
+vertical-align: middle;
+}
+
+tr p {
+    text-align: center;
+}
+
+td.shekel p {
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(http://cdn.pcwallart.com/images/gold-texture-wallpaper-1.jpg) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
+
+th.shekel {
+    width : 15%;
+}
+
+tr.shekel {
+    width : 15%;
+}
+
+tr {
+    background-color:rgba(0,0,0,0.35);
+    
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0,0,0,0.15);
+}
+
+tr td {
+    /*border-top:1pt solid rgba(255,255,255,0.25);*/
+    padding-top: 0.25em;
+}
+
+tr td:first-child {
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+
+}
+
+tr td:last-child {
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+.button {
+  line-height: 65px;
+}
+
+p img.shekel {
+    height: 1em;
+    width: 1em;
+}
+

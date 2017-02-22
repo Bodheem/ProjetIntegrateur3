@@ -1,0 +1,66 @@
+extends layout
+
+block head
+    link(rel="stylesheet", href="/stylesheets/accueil.css")
+
+block content
+
+     section
+     
+          script(type='text/javascript').
+               //var rankArray = JSON.parse( !{JSON.stringify(foo)} );
+
+          h1 PainBall™
+  
+          //p Fuck this shit.
+          
+          //p #{foo}
+          
+          //img(src= '/images/backpack.png')
+          
+          //each thing in foo
+          //      p= thing.USERNAME
+          
+          table
+               tr 
+                    th Joueur 
+                    th.shekel Shekel 
+                    th Achievement points
+                    th Games played
+                    th Games won
+                    th Games coop won
+                    th Games comp won
+               
+                    // "SELECT USERNAME, CASH, AVATAR_ID, ACHIEVEMENT_POINT, GAMES_WON, GAMES_PLAYED, GAMES_COOP_WON, GAMES_COOP_WON
+               
+               each stuff in foo
+                    tr
+                         td
+                              img(src= '/images/' + stuff.AVATAR_ID + '.jpg' height="100px" width="100px") 
+                              p #[a(href="/Joueur/" + stuff.USERNAME) #{stuff.USERNAME}]
+                         td.shekel
+                              p 
+                                   !{JSON.stringify(stuff.CASH)}
+                                   img.shekel(src="http://emojipedia-us.s3.amazonaws.com/cache/0e/f0/0ef02d985568a4d83e0736b8f0a26501.png")
+                         td
+                              p= stuff.ACHIEVEMENT_POINT
+                              
+                         td
+                              p= stuff.GAMES_PLAYED
+                         td
+                              p= stuff.GAMES_WON
+                         td
+                              p= stuff.GAMES_COOP_WON     
+                         td
+                              p= stuff.GAMES_COOP_WON
+
+                    
+               
+          //each elements in foo
+                //tr= elements.USERNAME
+                //tr= elements.CASH
+          
+
+               
+                    
+  

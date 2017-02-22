@@ -1,0 +1,46 @@
+extends layout
+
+block head
+    link(rel="stylesheet", href="/stylesheets/accueil.css")
+
+block content
+
+     section
+     
+          script(type='text/javascript').
+               //var rankArray = JSON.parse( !{JSON.stringify(foo)} );
+
+          h1 PainBall™
+  
+          //p Fuck this shit.
+          
+          //p #{foo}
+          
+          //img(src= '/images/backpack.png')
+          
+          //each thing in foo
+          //      p= thing.USERNAME
+          
+          //res.render('achievment', { table: row, avatar: avatar, identite:identite });
+         
+
+          
+         div.playerID 
+               img(src= '/images/' +  avatar + '.jpg' height="100px" width="100px") 
+               p= identite
+          
+
+          table
+          
+               each stuff in table
+                    tr
+                         td
+                              //img(src= '/images/' + stuff.AVATAR_ID + '.jpg' height="100px" width="100px") 
+                              p !{map.stuff.ACHIEVEMENT_ID.Image}
+                         td
+                              img(src= '/images/Achievements' +  avatar + '.jpg' height="100px" width="100px") 
+                          
+
+
+
+       

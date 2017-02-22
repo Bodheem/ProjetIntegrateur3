@@ -1,0 +1,53 @@
+///////////////////////////////////////////////////////////////////////////////
+/// @file CompteOffline.cpp
+/// @author The New Ballers
+/// @date 2016-02-22
+/// @version 1.0
+/// @ingroup Compte
+///////////////////////////////////////////////////////////////////////////////
+
+#include <sstream>
+#include "CompteOffline.h"
+#include "Informations/InfoCompte.h"
+
+////////////////////////////////////////////////////////////////////////
+/// @fn CompteOffline::CompteOffline()
+/// @brief Constructeur
+/// @return Aucun
+////////////////////////////////////////////////////////////////////////
+CompteOffline::CompteOffline()
+{
+	username_ = "HORS-LIGNE";
+	shekels_ = 0;
+	achievementPoint_ = 0;
+
+	isOnline_ = false;
+}
+
+
+////////////////////////////////////////////////////////////////////////
+/// @fn CompteOffline::~CompteOffline()
+/// @brief Destructeur
+/// @return Aucun
+////////////////////////////////////////////////////////////////////////
+CompteOffline::~CompteOffline()
+{
+
+}
+
+
+////////////////////////////////////////////////////////////////////////
+/// @fn CompteOffline::getAllInformations()
+/// @brief Destructeur
+/// @return Aucun
+////////////////////////////////////////////////////////////////////////
+std::string CompteOffline::getAllInformations() const
+{
+	std::stringstream ss;
+
+	ss << InfoCompte::USERNAME << ":" << username_ << "\n";
+	ss << InfoCompte::SHEKELS << ":" << shekels_ << "\n";
+	ss << InfoCompte::ACHIEVEMENT_POINT << ":" << achievementPoint_ << "\n";
+
+	return ss.str();
+}

@@ -1,0 +1,13 @@
+AffichageDebug:0
+AttractionPortail:1
+BilleParPartie:3
+DoubleBille:1
+Eclairage:0
+ForceRebond:1
+GenerationBille:0
+PaletteDroiteJ1:81
+PaletteDroiteJ2:70
+PaletteGaucheJ1:87
+PaletteGaucheJ2:71
+Ressort:78
+VitesseApresCollision:1

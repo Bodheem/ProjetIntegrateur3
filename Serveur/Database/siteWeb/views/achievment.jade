@@ -1,0 +1,24 @@
+extends layout
+
+block head
+    link(rel="stylesheet", href="/stylesheets/accueil.css")
+
+block content
+
+     section
+          script(type='text/javascript').
+          h1 PainBall™       
+          div.playerID 
+                 img(src= '/images/' +  avatar + '.jpg' height="100px" width="100px") 
+                 p= identite
+          table
+                 each stuff in arrpara
+                      tr
+                           td
+                                img(src= '/images/Achievements/' + stuff.Image + ""  height="100px" width="100px") 
+                           td
+                                h2.gold= stuff.Titre
+                           td
+                                p= "Points : " + stuff.Points
+                           td
+                                p= stuff.Texte

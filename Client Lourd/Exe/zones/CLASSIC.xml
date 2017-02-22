@@ -1,0 +1,120 @@
+<root>
+    <Proprietes>
+        <Author Valeur="BigBoss"/>
+        <Difficulte Valeur="1"/>
+        <ID Valeur="TEST"/>
+        <LastModificationBy Valeur="BigBoss"/>
+        <PointsBilleGratuite Valeur="500"/>
+        <PointsButoir Valeur="100"/>
+        <PointsCible Valeur="100"/>
+        <PointsTriangulaire Valeur="100"/>
+        <PointsVictoire Valeur="1000"/>
+    </Proprietes>
+    <arbreRenduINF2990>
+        <table nbEnfants="17">
+            <generateurbille id="0">
+                <Position X="-21.909937432938108" Y="123.01397221289317" Z="-0.67594826869266456"/>
+                <Scale X="0.50059265407481512" Y="0.50059265407481512" Z="0.50059265407481512"/>
+                <Angle X="0" Y="0" Z="-0.33333333333320331"/>
+                <Color ColorShift="0"/>
+            </generateurbille>
+            <ressort id="1">
+                <Position X="-86.545028817657084" Y="-120.01397221289315" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </ressort>
+            <ressort id="2">
+                <Position X="57.720495153035671" Y="-123.11645660981809" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </ressort>
+            <butoircirculaire id="3">
+                <Position X="-18.290372315393864" Y="75.959625526198352" Z="11.662358283996582"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoircirculaire>
+            <butoircirculaire id="4">
+                <Position X="-47.763973986825704" Y="41.83229716002409" Z="11.662358283996582"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoircirculaire>
+            <butoircirculaire id="5">
+                <Position X="9.1149064317269701" Y="40.281054961561651" Z="11.662358283996582"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoircirculaire>
+            <butoirg id="6">
+                <Position X="-75.169252733946564" Y="-45.554346686694799" Z="0"/>
+                <Scale X="0.72143681521833103" Y="0.72143681521833103" Z="0.72143681521833103"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoirg>
+            <butoird id="7">
+                <Position X="55.135091497646869" Y="-41.934781556949048" Z="0"/>
+                <Scale X="0.74560457471032249" Y="0.74560457471032249" Z="0.74560457471032249"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </butoird>
+            <trou id="8">
+                <Position X="-9.4999998870720788" Y="-120.53105294571398" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </trou>
+            <mur id="9">
+                <Position X="-55.520184952991983" Y="-97.779500701597811" Z="4.1593260765075684"/>
+                <Scale X="1" Y="9.6898902118372519" Z="1"/>
+                <Angle X="0" Y="0" Z="46.827968147929987"/>
+                <Color ColorShift="0"/>
+            </mur>
+            <mur id="10">
+                <Position X="36.003104447770092" Y="-100.88198509852273" Z="4.1593260765075684"/>
+                <Scale X="1" Y="9.8370755727680859" Z="1"/>
+                <Angle X="0" Y="0" Z="-49.86994162110156"/>
+                <Color ColorShift="0"/>
+            </mur>
+            <paletted id="11">
+                <Position X="27.729812750526072" Y="-60.549687938498636" Z="10"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="229.33333333333334"/>
+                <Color ColorShift="0"/>
+            </paletted>
+            <trou id="12">
+                <Position X="59.271737346268878" Y="-47.622669617978076" Z="0"/>
+                <Scale X="0.83050481125099607" Y="0.83050481125099607" Z="0.83050481125099607"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </trou>
+            <trou id="13">
+                <Position X="-75.686333465024305" Y="-51.242234747723842" Z="0"/>
+                <Scale X="0.83050481125099607" Y="0.83050481125099607" Z="0.83050481125099607"/>
+                <Angle X="0" Y="0" Z="0"/>
+                <Color ColorShift="0"/>
+            </trou>
+            <paletteg id="14">
+                <Position X="-48.281054717903466" Y="-63.135091602602742" Z="10"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="132.00000000000003"/>
+                <Color ColorShift="0"/>
+            </paletteg>
+            <paletteg id="15">
+                <Position X="-83.959625162268324" Y="-3.153726595387397" Z="10"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="167.00000000000006"/>
+                <Color ColorShift="1"/>
+            </paletteg>
+            <paletted id="16">
+                <Position X="63.925463925968685" Y="-2.1195651297457507" Z="10"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Angle X="0" Y="0" Z="198.3333333333334"/>
+                <Color ColorShift="1"/>
+            </paletted>
+        </table>
+        <couvercle/>
+    </arbreRenduINF2990>
+</root>
