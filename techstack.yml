@@ -1,7 +1,8 @@
 repo_name: Bodheem/ProjetIntegrateur3
 report_id: cd245ae86156a7998388de16e169ceee
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T22:54:36+00:00'
+timestamp: '2024-01-04T15:17:06+00:00'
 requested_by: Bodheem
 provider: github
 branch: master
@@ -17,8 +18,9 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
-  detection_source_url: Client Lourd/Sources/InterfaceGraphique/InterfaceGraphique.csproj
-  detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Client
+    Lourd/Sources/InterfaceGraphique/InterfaceGraphique.csproj
+  detection_source: Client Lourd/Sources/InterfaceGraphique/InterfaceGraphique.csproj
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: C lang
@@ -29,6 +31,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3
   detection_source: Repo Metadata
 - name: C#
   description: Simple, general-purpose, object-oriented programming language for the
@@ -39,6 +42,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -49,6 +53,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -58,6 +63,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3
   detection_source: Repo Metadata
 - name: GLSL
   description: A high-level C-style language
@@ -67,6 +73,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6548/default_a66025fbe8f221c489bdaac3a99d84e5f138cbbd.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -77,6 +84,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -88,6 +96,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -102,8 +111,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: Knockout
@@ -114,6 +123,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1997/logo_400x400.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -126,6 +136,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -139,6 +150,7 @@ tools:
   category: Data Stores
   sub_category: Object Relational Mapper (ORM)
   image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -151,7 +163,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1071/sqlite.jpg
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: CMake
@@ -162,6 +175,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -171,6 +185,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3
   detection_source: Repo Metadata
 - name: NuGet
   description: The package manager for .NET
@@ -180,6 +195,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -192,6 +208,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Client
+    Lourd/Sources/INF2990.sln
   detection_source: Client Lourd/Sources/INF2990.sln
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -203,7 +221,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: Modernizr
@@ -216,7 +235,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2440/9TeXWBzR_400x400.jpg
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -230,7 +249,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13933/default_8dca38a2ab03b0f0fe4abb9653f518b12d7c36b6.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -243,7 +262,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/14514/default_26203d730613eafa87f8442ac8c7d2681fb68c1e.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -256,7 +275,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/15004/default_2bc9b8012cc0314fa3c462782c3abefe3467a481.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -270,7 +289,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12930/default_f8bf1110f8f0beaf5fae35865de7f77ccd1139f0.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -285,7 +304,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12966/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -300,7 +319,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12947/default_d871263d8798790404638a4d3692cc70b6389166.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -313,7 +332,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13913/default_d0f56a4fd164e7339982fb0fcb3c8259b4f6838c.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -326,7 +345,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13861/default_9392b6bd21074179bfea6d3bfa28b6447ac48306.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -339,7 +358,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13779/default_300517a0879bc10cd5f0e9cabc8af8536f57ba23.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -352,7 +371,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13687/default_454d3c2483df503a4aa32113a89e3edb23190d51.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -366,7 +385,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/12927/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -380,7 +399,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13143/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -394,7 +413,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/15217/default_dc1980c0e4a126ab89ae1c515a7828dad2733b46.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -408,7 +427,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13049/default_a420a6b9076a7e051ae42f91031e323b7fdb478d.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -422,7 +441,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13011/default_971bb108ce002c2032e407a9046135e1542c46c7.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -435,7 +454,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13696/default_454d3c2483df503a4aa32113a89e3edb23190d51.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -448,7 +467,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13695/default_464fb9b438380c5ec98e481823a05b9599991662.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -462,7 +481,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13115/default_a057bdad489be3cb053d372a68695da4ac94962d.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -477,7 +496,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13096/default_9a42ff760d96a634e61dad6d7a7d76e2d1506229.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -530,7 +549,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13119/default_f0c74e534077001eb65a152707758ce46a2dc970.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -557,7 +576,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/13135/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -572,7 +591,7 @@ tools:
   category: Libraries
   sub_category: NuGet Packages
   image_url: https://img.stackshare.io/package/15056/default_49fa106e5e33c2d94f9ef3671c796bc908874773.png
-  detection_source_url: Serveur/SiteWeb/WebBall-HTML/packages.config
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/SiteWeb/WebBall-HTML/packages.config
   detection_source: Serveur/SiteWeb/WebBall-HTML/packages.config
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
@@ -586,8 +605,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: cookie-parser
@@ -600,8 +619,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: debug
@@ -614,8 +633,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
   vulnerabilities:
@@ -641,8 +660,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
   vulnerabilities:
@@ -662,8 +681,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: jade
@@ -676,8 +695,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16163/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: morgan
@@ -690,8 +709,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
   vulnerabilities:
@@ -711,8 +730,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16361/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: sqlite3
@@ -725,8 +744,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16285/default_3b7197abc4df3d7fa7c5292f17b2e6fb0cd1c8d4.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: underscore
@@ -739,8 +758,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15882/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: Serveur/Database/siteWeb/package.json
-  detection_source: Website/package.json
+  detection_source_url: https://github.com/Bodheem/ProjetIntegrateur3/blob/master/Serveur/Database/siteWeb/package.json
+  detection_source: Serveur/Database/siteWeb/package.json
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
   vulnerabilities:
