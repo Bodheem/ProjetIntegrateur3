@@ -2,7 +2,7 @@ repo_name: Bodheem/ProjetIntegrateur3
 report_id: cd245ae86156a7998388de16e169ceee
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:05:41+00:00'
+timestamp: '2024-02-29T18:24:42+00:00'
 requested_by: Bodheem
 provider: github
 branch: master
@@ -168,7 +168,7 @@ tools:
   last_updated_by: Nikolay Radoev
   last_updated_on: 2017-02-22 04:04:00.000000000 Z
 - name: CMake
-  description: 'An open-source system that manages the build process '
+  description: An open-source system that manages the build process
   website_url: http://www.cmake.org/
   open_source: false
   hosted_saas: false
